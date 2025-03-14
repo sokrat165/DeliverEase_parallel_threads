@@ -39,13 +39,23 @@ DeliverEase is a multi-threaded Java application that simulates a food delivery 
    - The `Order` class notifies listeners (e.g., restaurants, delivery workers) when the order status changes.
 
 ├── src/
+
 │ ├── project1/
+
 │ │ ├── MainApp.java # Entry point of the application
+
 │ │ ├── Database.java # Singleton class for database operations
+
 │ │ ├── Restaurant.java # Producer class (generates orders)
+
 │ │ ├── DeliveryWorker.java # Consumer class (delivers orders)
+
 │ │ ├── Order.java # Represents an order
+
 │ │ ├── DeliveryWorkerFactory.java # Factory class for creating delivery workers
+
 │ │ └── OrderListener.java # Observer interface for order status changes
+
 ├── README.md # Project documentation
+
 └── .gitignore # Specifies files to ignore in Git
